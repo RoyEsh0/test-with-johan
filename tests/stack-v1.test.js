@@ -10,7 +10,7 @@ test('pop on empty stack returns undefined', () => {
 });
 
 test('push increases the stack size', () => {
-    expect(stack.peek()).toBe(defined);
+    expect(stack.peek()).toBe(undefined);
     stack.push(40);
     expect(stack.peek()).toBe(40);
 
