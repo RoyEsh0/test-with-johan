@@ -14,4 +14,4 @@ test('push increases the stack size', () => {
     stack.push(40);
     expect(stack.peek()).toBe(40);
 
-})
+});
